@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-red-500 w-screen h-screen p-4'>
+    <div className='bg-white w-screen h-screen p-4  flex justify-center items-center flex-col'>
       <ToDoList/>
     </div>
   )
